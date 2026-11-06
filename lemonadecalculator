@@ -1,0 +1,35 @@
+def great_cus():
+    print("Welcome to the lemonad stand!")
+    print("Reash lemonade, made just for you")
+
+great_cus
+
+price_per_cup = float(input("Enter the price per cup in dirhams or fills"))
+cups_sold = int(input("Enter the number of cups sold"))
+
+def calculate_total(price,cups):
+    total = price * cups
+    return total
+
+total_cost = calculate_total(price_per_cup, cups_sold)
+
+rounded_total = round(total_cost, 2)
+print("Total Cost:", rounded_total)
+
+amout_paid = float(input("Enter the amout paid y customer:"))
+
+
+def calculate_change(paid,total):
+    change = paid - total
+    return change
+
+change_due = calculate_change(amout_paid, rounded_total)
+rounded_change = round(change_due,2)
+
+print("")
+print("===== LEMONAD STAND RECIPT =====")
+print("Price Per Cup:",price_per_cup)
+print("Total cost:", cups_sold)
+print("Amout Paid:" ,amout_paid)
+print("Change Due:",rounded_total)
+print("===================================")
