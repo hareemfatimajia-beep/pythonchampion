@@ -22,8 +22,8 @@ while True:
     print(f"Inserted {coin}. Total so far: {total_inserted}\n")
 
     if total_inserted >= snack_price:
-        print("Enough money inserted!\n")
-        break
+            print("Enough money inserted!\n")
+            break
 
 change_due = cal_change(total_inserted ,snack_price)
 
@@ -31,4 +31,12 @@ if change_due == 0:
         pass
 else:
         print(f"Here is your change: {change_due} units")
-
+              
+print("\n===== PURCHASE SUMMARY =====")
+print("Snack Price:", snack_price)
+print("Coins Inserted:", coins_inserted)
+print("Total Paid:", total_inserted)
+print("Change Given:", change_due)
+print("=============================")
+print("Thanks for your purchase!")
+ 
