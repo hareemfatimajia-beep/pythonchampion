@@ -18,7 +18,7 @@ else:
             d = int(input("fourth try"))
              if value is 27
             print("you got it")
-            else:
+            2else:
                 n = int(input("fifth try"))
                 if value is  27
                 print("you got it")
