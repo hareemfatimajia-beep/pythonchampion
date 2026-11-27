@@ -8,20 +8,20 @@ if value is  27
     print("you got it")
 else:
     b = int(input("second try"))
-if value is  27
-    print("you got it")
-else:
-    c = int(input("third try"))
     if value is  27
     print("you got it")
-else:
-    d = int(input("fourth try"))
-    if value is 27
-    print("you got it")
-else:
-    n = int(input("fifth try"))
-    if value is  27
-        print("you got it")
-elif:
-    print("Out of luck!!!!!")
+    else:
+        c = int(input("third try"))
+        if value is  27
+         print("you got it")
+        else:
+            d = int(input("fourth try"))
+             if value is 27
+            print("you got it")
+            else:
+                n = int(input("fifth try"))
+                if value is  27
+                print("you got it")
+                else:
+                    print("Out of luck!!!!!")
  
